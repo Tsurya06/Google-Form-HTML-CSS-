@@ -15,7 +15,7 @@ body{
     height: 130px;
     width: 550px;
     background-color: #FDFEFE;
-    margin: 15px;
+    margin-top: 15px;
     border-radius: 8px;
     border-top: 9px solid #6707c4;
     padding: 25px;
@@ -24,7 +24,7 @@ body{
     height: 150px;
     width: 600px;
     background-color: #FDFEFE;
-    margin: 15px;
+    margin-top: 10px;
     border-radius: 8px;
 }
 .name{
@@ -44,6 +44,11 @@ body{
     border-bottom: 1.5px solid #DCD7D7;
     font-size: 15px;
 }
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
 .btn{
     cursor: pointer;
     height: 36px;
@@ -55,12 +60,10 @@ body{
     border-radius: 8px;
     border: none;
     padding: 10px;
-    position: absolute;
-    margin: 15px;
     color: white;
-    /* display:flex; */
-    display: inline-block;
-    justify-content:space-between;
+}
+.btn:hover{
+    background-color:#6703c4e1;
 }
 .btn1{
     cursor: pointer;
@@ -72,17 +75,7 @@ body{
     font-weight: 540;
     border-radius: 8px;
     border: none;
-    align-items: flex-end;
-    position: absolute;
-    margin: 15px;
     color: white;
-    /* display: flex; */
-    justify-content: flex-end ;
-    display: inline-block;
-    /* float: ; */
-}
-.btn :hover{
-    background-color:rgb(229, 214, 214)!important;
 }
 
 .last-div h2{
