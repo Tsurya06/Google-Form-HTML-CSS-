@@ -15,7 +15,7 @@ body{
     height: 130px;
     width: 550px;
     background-color: #FDFEFE;
-    margin: 15px;
+    margin-top: 15px;
     border-radius: 8px;
     border-top: 9px solid #6707c4;
     padding: 25px;
@@ -24,7 +24,7 @@ body{
     height: 150px;
     width: 600px;
     background-color: #FDFEFE;
-    margin: 15px;
+    margin-top: 15px;
     border-radius: 8px;
 }
 .name{
@@ -44,6 +44,10 @@ body{
     border-bottom: 1.5px solid #DCD7D7;
     font-size: 15px;
 }
+.button{
+    display:flex;
+    justify-content:space-between;
+}
 .btn{
     cursor: pointer;
     height: 36px;
@@ -55,12 +59,10 @@ body{
     border-radius: 8px;
     border: none;
     padding: 10px;
-    position: absolute;
-    margin: 15px;
+    /* position: absolute; */
+    margin-top: 15px;
     color: white;
-    /* display:flex; */
-    display: inline-block;
-    justify-content:space-between;
+    
 }
 .btn1{
     cursor: pointer;
@@ -72,16 +74,13 @@ body{
     font-weight: 540;
     border-radius: 8px;
     border: none;
-    align-items: flex-end;
-    position: absolute;
-    margin: 15px;
+    /* align-items: flex-end; */
+    /* position: absolute; */
+    margin-top: 15px;
     color: white;
-    /* display: flex; */
-    justify-content: flex-end ;
-    display: inline-block;
-    /* float: ; */
+   
 }
-.btn :hover{
+.btn:hover{
     background-color:rgb(229, 214, 214)!important;
 }
 
@@ -91,8 +90,9 @@ body{
      color:#a2a4a6;
      font-weight: 200;
 }
+
 .never{
-    padding-left: 22px;
+    padding-left: 2px;
     font-size: 12px;
     padding-top:70px;
     font-weight: 400;
@@ -100,7 +100,7 @@ body{
 
 .term{
     font-size: 12px;
-    padding-left: 45px;
+    padding-left: 29px;
     padding-top: 5px;
     position: absolute;
 }
