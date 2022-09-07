@@ -6,14 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>forms.google</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <script>
-        function onlcik(x)
-        {
-            alert(x);
-        }
-    </script>
+
   </head>
   <body>
+    
     <form action="">
     <div class="form">
       <div class="title-div">
@@ -23,14 +19,16 @@
       </div>
 
       <div class="name-div">
+        
         <div class="name">Full Name.<span class="req">*</span></div>
         <div class="input-div">
-          <input type="text" name="answer" placeholder="Full Name" required>
+          <input type="text" name="full name" placeholder="Full Name" required>
         </div>
       </div>
 
       <div class="roll_number-div">
         <div class="name">Roll number.<span class="req">*</span></div>
+        <!-- <div class="name"><input type="number" value="Roll number"></div> -->
         <div class="input-div">
           <input type="number" name="answer" placeholder="roll number" required >
         </div>
@@ -61,7 +59,8 @@
         <input class="btn" type="submit" name="Submit" value="Submit"
         onclick="onlcik('submitted')" >
 
-        <input class="btn1" type="reset" name="Clear" value="Clear Form"  onclick="onlcik('cleared')" >
+        <!-- <input class="btn1" type="reset" name="Clear" value="Clear Form"  onclick="onlcik('cleared')" > -->
+        <input class="btn1" type="reset" name="Clear" value="Clear Form">
       </div>
     </form>
       <div class="last-div">
